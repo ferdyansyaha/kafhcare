@@ -6,9 +6,9 @@
               <h2>Best Seller</h2>
               <a href="products.html">view all products <i class="fa fa-angle-right"></i></a>
             </div>
+            <?php foreach ($dataBarang as $barang) : ?>
           </div>
-          <div class="col-md-4">
-          <?php foreach ($dataBarang as $barang) : ?>
+          <div class="col-md-4 ">
             <div class="product-item">
               <a href="#"><img src="./assets/images/<?=$barang['barang_img']?>" alt=""></a>
               <div class="down-content">
@@ -70,7 +70,7 @@
             <div class="inner-content">
               <div class="row">
                 <div class="col-md-8">
-                  <h4>Creative &amp; Unique <em>Sixteen</em> Products</h4>
+                  <h4>Creative &amp; Unique <em>Kahf</em> Products</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.</p>
                 </div>
                 <div class="col-md-4">
