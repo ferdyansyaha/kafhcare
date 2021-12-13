@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Sixteen Clothing HTML Template</title>
+    <title>Kahf Care</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -76,20 +76,20 @@ https://templatemo.com/tm-546-sixteen-clothing
       <div class="owl-banner owl-carousel">
         <div class="banner-item-01">
           <div class="text-content">
-            <h4>Best Offer</h4>
-            <h2>New Arrivals On Sale</h2>
+            <h4>Penawaran Terbaik</h4>
+            <h2>Nikmati Produk Terbaru</h2>
           </div>
         </div>
         <div class="banner-item-02">
           <div class="text-content">
-            <h4>Flash Deals</h4>
-            <h2>Get your best products</h2>
+            <h4>Flash Sale</h4>
+            <h2>Dapatkan produk terbaik Anda</h2>
           </div>
         </div>
         <div class="banner-item-03">
           <div class="text-content">
-            <h4>Last Minute</h4>
-            <h2>Grab last minute deals</h2>
+            <h4>buy Now</h4>
+            <h2>Jaga kesehatan kulit anda</h2>
           </div>
         </div>
       </div>

@@ -1,19 +1,20 @@
-<div class="latest-products">
+  <div class="latest-products">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h2>Our Products</h2>
+              <h2>Best Seller</h2>
               <a href="products.html">view all products <i class="fa fa-angle-right"></i></a>
             </div>
           </div>
           <div class="col-md-4">
+          <?php foreach ($dataBarang as $barang) : ?>
             <div class="product-item">
-              <a href="#"><img src="./assets/images/product_01.jpg" alt=""></a>
+              <a href="#"><img src="./assets/images/<?=$barang['barang_img']?>" alt=""></a>
               <div class="down-content">
-                <a href="#"><h4>Tittle goes here</h4></a>
-                <h6>$25.75</h6>
-                <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                <a href="#"><h4><?=$barang['barang_title']?></h4></a>
+                <h6>Rp. <?=$barang['barang_harga']?></h6>
+                <p><?=$barang['barang_description']?></p>
                 <ul class="stars">
                   <li><i class="fa fa-star"></i></li>
                   <li><i class="fa fa-star"></i></li>
@@ -24,6 +25,7 @@
                 <span>Reviews (24)</span>
               </div>
             </div>
+            <?php endforeach ?>
           </div>
         </div>
       </div>
@@ -34,19 +36,19 @@
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h2>About Sixteen Clothing</h2>
+              <h2>About Kahf Care</h2>
             </div>
           </div>
           <div class="col-md-6">
             <div class="left-content">
-              <h4>Looking for the best products?</h4>
-              <p><a rel="nofollow" href="https://templatemo.com/tm-546-sixteen-clothing" target="_parent">This template</a> is free to use for your business websites. However, you have no permission to redistribute the downloadable ZIP file on any template collection website. <a rel="nofollow" href="https://templatemo.com/contact">Contact us</a> for more info.</p>
+              <h4>Sedikit pengenalan produk kahf</h4>
+              <p>Kahf merupakan brand personal care pria dengan terobosan baru yang menghadirkan rangkaian produk halal, berkualitas dan terinspirasi dari alam untuk merawat kulit dan kebersihan diri.
+              Dan akhirnya ada juga rangkaian produk pria Brand Lokal yanag diperuntukkan untuk kaum pria. Kahf hadir dengan formula yang ringan berteknologi HydroBalanceTM dengan empat filosofinya, yaitu:</p>
               <ul class="featured-list">
-                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                <li><a href="#">Consectetur an adipisicing elit</a></li>
-                <li><a href="#">It aquecorporis nulla aspernatur</a></li>
-                <li><a href="#">Corporis, omnis doloremque</a></li>
-                <li><a href="#">Non cum id reprehenderit</a></li>
+                <li><a href="#">Purely Cleanse : membersihkan kulit secara menyeluruh hingga ke pori-pori</a></li>
+                <li><a href="#">Balancely Hydrated : menjaga keseimbangan kelembaban alami kulit</a></li>
+                <li><a href="#">Nourish and Care : merawat serta menutrisi tubuh</a></li>
+                <li><a href="#">Exquisite Natural Scent : mengandung aroma yang terinspirasi dari alami</a></li>
               </ul>
               <a href="about.html" class="filled-button">Read More</a>
             </div>
