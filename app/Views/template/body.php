@@ -41,7 +41,7 @@
           </div>
           <div class="col-md-6">
             <div class="left-content">
-              <h4>Sedikit pengenalan produk kahf</h4>
+              <h4>Sedikit Pengenalan Produk Kahf</h4>
               <p>Kahf merupakan brand personal care pria dengan terobosan baru yang menghadirkan rangkaian produk halal, berkualitas dan terinspirasi dari alam untuk merawat kulit dan kebersihan diri.
               Dan akhirnya ada juga rangkaian produk pria Brand Lokal yanag diperuntukkan untuk kaum pria. Kahf hadir dengan formula yang ringan berteknologi HydroBalanceTM dengan empat filosofinya, yaitu:</p>
               <ul class="featured-list">
